@@ -21,15 +21,22 @@ La aplicación dispone de modo oscuro por lo que se adaptará a la configuració
 QuickMaths realiza operaciones sencillas tales como:
 <br/>
 -Sumar.
+<br/>
 -Restar.
+<br/>
 -Dividir.
+<br/>
 -Multiplicar.
+<br/>
 -Calcular %.
 <br/>
-También cuenta con la posibilidad de hacer operaciones con números negativos y decimales4
+También cuenta con la posibilidad de hacer operaciones con números negativos y decimales.
 # ▶📲 Ejecución.
 <img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.gif" width="250">
 # Accesos Directos ♻🔁
-* Haz clic [MainActivity](https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/java/com/example/quickmaths/MainActivity.java)
-* Haz clic [Activity Main](https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/res/layout/activity_main.xml)
+* MainActivity (https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/java/com/example/quickmaths/MainActivity.java)
+* ActivityMain (https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/res/layout/activity_main.xml)
+
+# Autor 💎🔥
+Adrián Blancas Romero
 
