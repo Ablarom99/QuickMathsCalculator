@@ -14,5 +14,5 @@ QuickMaths es una aplicación minimalista en la que cuenta con unos colores muy 
 La aplicación dispone de modo oscuro por lo que se adaptará a la configuración que usted tenga seleccionada.
 <br/>
 <img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/disenho.JPG" >
-<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.jpg" alt="drawing" width="300">
+<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.jpg" alt="drawing" width="250">
 
