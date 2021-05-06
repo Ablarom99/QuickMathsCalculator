@@ -4,10 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_light">
 
     <Button
         android:id="@+id/btnigual"
+        android:onClick="pulsaIgual"
+        android:background="@android:color/holo_orange_dark"
         android:layout_width="120dp"
         android:layout_height="113dp"
         android:text="="
@@ -16,22 +20,26 @@
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.974" />
+        app:layout_constraintVertical_bias="0.974"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/btnDividir"
         android:layout_width="112dp"
         android:layout_height="48dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="pulsaOperacion"
         android:text="/"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnMultiplicar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn9"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="9"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnMenos"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,18 +48,22 @@
 
     <Button
         android:id="@+id/btn7"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="7"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/btnC"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaBorrar"
+        android:layout_width="60dp"
+        android:layout_height="56dp"
+        android:background="@android:color/holo_red_dark"
         android:text="C"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnDividir"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,9 +71,22 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/btnSigno"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:background="@android:color/holo_blue_light"
+        android:onClick="pulsaTecla"
+        android:text="+/-"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnDividir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/btn8"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="8"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn9"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,6 +95,8 @@
 
     <Button
         android:id="@+id/btnSumar"
+        android:onClick="pulsaOperacion"
+        android:background="@android:color/holo_blue_light"
         android:layout_width="112dp"
         android:layout_height="48dp"
         android:text="+"
@@ -82,6 +109,8 @@
 
     <Button
         android:id="@+id/btnMenos"
+        android:onClick="pulsaOperacion"
+        android:background="@android:color/holo_blue_light"
         android:layout_width="112dp"
         android:layout_height="48dp"
         android:text="-"
@@ -94,6 +123,8 @@
 
     <Button
         android:id="@+id/btnMultiplicar"
+        android:onClick="pulsaOperacion"
+        android:background="@android:color/holo_blue_light"
         android:layout_width="112dp"
         android:layout_height="48dp"
         android:text="x"
@@ -106,8 +137,9 @@
 
     <Button
         android:id="@+id/btn4"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="4"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,8 +148,9 @@
 
     <Button
         android:id="@+id/btn5"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="5"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn6"
         app:layout_constraintEnd_toEndOf="parent"
@@ -126,8 +159,9 @@
 
     <Button
         android:id="@+id/btn6"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="6"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnSumar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,8 +170,9 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="1"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,8 +181,9 @@
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="2"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,8 +192,9 @@
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,8 +205,9 @@
 
     <Button
         android:id="@+id/btn0"
-        android:layout_width="71dp"
-        android:layout_height="51dp"
+        android:onClick="pulsaTecla"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
         android:text="0"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnporciento"
         app:layout_constraintEnd_toEndOf="parent"
@@ -178,6 +216,8 @@
 
     <Button
         android:id="@+id/btnporciento"
+        android:onClick="pulsaPorciento"
+        android:background="@android:color/darker_gray"
         android:layout_width="71dp"
         android:layout_height="51dp"
         android:text="%"
@@ -190,6 +230,8 @@
 
     <Button
         android:id="@+id/btncoma"
+        android:onClick="pulsaTecla"
+        android:background="@android:color/darker_gray"
         android:layout_width="71dp"
         android:layout_height="51dp"
         android:text=","
@@ -198,15 +240,21 @@
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/txvPantalla"
-        android:layout_width="374dp"
-        android:layout_height="277dp"
-        android:text="TextView"
+    <EditText
+        android:id="@+id/editText"
+        android:inputType="none"
+        android:layout_width="386dp"
+        android:layout_height="379dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="right|center"
+        android:text="0"
+        android:textSize="59pt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.622"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.044" />
+
 </android.support.constraint.ConstraintLayout>
