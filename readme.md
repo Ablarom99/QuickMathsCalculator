@@ -13,6 +13,6 @@ Conseguí hacerlo arrancar en móvil y desde ahí comprobar el estado de la apli
 QuickMaths es una aplicación minimalista en la que cuenta con unos colores muy suaves, una organización en pantalla pensada para usar la aplicación con una sola mano.
 La aplicación dispone de modo oscuro por lo que se adaptará a la configuración que usted tenga seleccionada.
 <br/>
-<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/disenho.JPG">
-<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.jpg">
+<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/disenho.JPG" >
+<img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.jpg" =100x20>
 
