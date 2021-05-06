@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/QuickMaths.jpg">
+  <img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/QuickMaths.png">
 </p>
 
 # 🗒 Proyecto.
