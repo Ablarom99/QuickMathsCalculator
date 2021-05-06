@@ -33,7 +33,7 @@ QuickMaths realiza operaciones sencillas tales como:
 También cuenta con la posibilidad de hacer operaciones con números negativos y decimales.
 # ▶📲 Ejecución.
 <img src="https://github.com/Ablarom99/QuickMathsCalculator/blob/main/recursos/calculadora.gif" width="250">
-# Accesos Directos ♻🔁
+# 🔁 Accesos Directos.
 * MainActivity (https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/java/com/example/quickmaths/MainActivity.java)
 * ActivityMain (https://github.com/Ablarom99/QuickMathsCalculator/blob/main/app/src/main/res/layout/activity_main.xml)
 
